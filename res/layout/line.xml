@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#38b4ea"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+	<FrameLayout  
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content">
+	    <ImageButton
+	        android:id="@+id/bt_image"
+	        android:layout_width="45dp"
+	        android:layout_height="45dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginTop="2dp"
+	        android:layout_marginLeft="12dp"
+	        android:layout_marginBottom="2dp"
+	        android:background="@drawable/emoji_1f4cc"
+	        android:focusable="false"/>
+	    <Button
+	        android:id="@+id/bt_num"
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dp"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginTop="2dp"
+	        android:layout_marginLeft="5dp"
+	        android:focusable="false"
+	        android:hint="序号"
+	        android:textSize="20dp" />
+	</FrameLayout>
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:editable="true"
+        android:focusable="false"
+        android:textSize="20dp"
+        android:background="#eee"
+        android:width="100px" />
+
+    <FrameLayout
+        android:layout_width="172dp"
+        android:layout_height="50dp" >
+
+        <LinearLayout
+            android:layout_width="172dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_mlmin"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="-6dp"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:width="60px" />
+
+            <EditText
+                android:id="@+id/et_mlmax"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="-6dp"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:width="60px" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_ml"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:background="#a038b4ea"
+            android:editable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:width="60px" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="172dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp" >
+
+        <LinearLayout
+            android:layout_width="172dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/et_xymin"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="-6dp"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:width="60px" />
+
+            <EditText
+                android:id="@+id/et_xymax"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="-6dp"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:width="60px" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_xy"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:background="#a038b4ea"
+            android:editable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:width="60px" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bt_history"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:focusable="false"
+        android:text="历史"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/delete_x"
+        android:focusable="false"
+        android:textSize="20dp" />
+
+</LinearLayout>
